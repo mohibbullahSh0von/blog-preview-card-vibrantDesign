@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --color-light-yellow: hsl(47, 88%, 63%);
+  --color-white: hsl(0, 0%, 100%);
+  --color-light-gray: hsl(0, 0%, 42%);
+
+
+  --color-dark-blue: hsl(222, 47%, 12%);
+  --color-dark-cyan: hsl(190, 90%, 55%);
+  --color-dark-purple: hsl(270, 70%, 65%);
+  
+
+
+  --font-figtree: 'Figtree', sans-serif;
+  --breakpoint-mobile: 376px;
+  --breakpoint-tablet:769px;
+  --breakpoint-desktop: 1441px;
+
+  --text-normal: 16px;
+  --text-small: 14px;
+  --text-medium:15px;
+  --text-h1: 56px;
+  --text-h2: 24px;
+
+  --font-weight-normal: 500;
+  --font-weight-bold: 800;
+}
+
+
+  
+
+.logo{
+  -webkit-text-fill-color: hsl(47, 88%, 63%);
+  -webkit-text-stroke: 1px black;
+}
