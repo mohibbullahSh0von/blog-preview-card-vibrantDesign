@@ -24,8 +24,8 @@ function Header() {
   
     return (
         <>        
-            <header className='z-9999999'>
-                <nav className='flex flex-row justify-between tablet:justify-start tablet:gap-10 items-center fixed bg-white min-h-15 min-w-full px-8 py-4 border-b-2'>
+            <header className='fixed top-0 left-0 right-0 z-9999999 border-b-2 border-black'>
+                <nav className='flex flex-row justify-between tablet:justify-start tablet:gap-10 items-center bg-white min-h-15 min-w-full px-8 py-4 '>
                     <div className="logo uppercase cursor-pointer font-bold text-2xl text-light-yellow text-shadow-black text-shadow-[4px_4px_0_rgba(1,1,1,1)] hover:scale-105 hover:text-shadow-[8px_8px_0_rgba(1,1,1,1)] transform transition-all duration-200 ease-in-out active:scale-95 active:text-shadow-[2px_2px_0_rgba(1,1,1,1)">
                         <Link to="/">
                             Shovon
